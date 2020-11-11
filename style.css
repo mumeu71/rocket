@@ -1,0 +1,66 @@
+#mainBody{
+  position: absolute;
+  top:45%;
+  left:50%;
+  transform:translate(-50%, -50%);
+ }
+ body{
+   text-align: center;
+ }
+ #logo{
+   text-align: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ /*이미지 크기*/
+ #rocket-i{width: 52px;}
+ #makenew-i{width: 23px;}
+ #feedback-i{width: 23px;}
+
+  /*텍스트 인풋창*/
+ .textInput{
+   resize: none;
+   width: 590px;
+   height: 260px;
+   border:  1.6px solid #4f4e4e;
+ }
+ textarea::placeholder{
+   color: black;
+   font-size: 18px;
+   font-weight: bold;
+ }
+
+ /*메인 검색창*/
+ #searchBar{
+   width: 200px;
+   height:40px;
+   border:1.6px solid #4f4e4e;
+   background: white;
+   border-radius: 5px;
+   margin-bottom: 10px;
+ }
+ #search{
+   border: none;
+   float: left;
+   width: 146px;
+   padding-top: 14px;
+   margin-left: 12px;
+ }
+ input::placeholder{
+   font-size: 15px;
+ }
+ #searchButton{
+   height: 100%;
+   border: none;
+   float: right;
+   margin-right: 3px;
+ }
+
+
+ button{
+   background-color: white;
+ }
+ /*이미지버튼*/
+ #button{
+   border: none;
+ }
